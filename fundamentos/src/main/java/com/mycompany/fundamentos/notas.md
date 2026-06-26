@@ -70,6 +70,23 @@ precisar de um objeto específico e sendo chamado da forma String.toUpperCase()
 
 Tipos primitivos não tem métodos, não tem .
 
+Import
+
+String
+"Olá pessoal".charAt(2) retorna o caracter na posição 2
+Strings são objetos imutáveis. por isso quando chamamos um método de instância, o resultado tem que ser salvo numa variável.
+s.startsWith("Boa"); é case sensitive
+s.endsWith("dia")
+s.length() quantos caracteres tem uma string
+s.equals("boa tarde"); comparação de strings. true ou false
+s.equalsIgnoreCase("boa tarde"); o equals só que não case sensitive
+
+
+
+
+
+
+
 
 
 
