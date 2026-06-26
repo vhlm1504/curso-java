@@ -81,8 +81,37 @@ s.length() quantos caracteres tem uma string
 s.equals("boa tarde"); comparação de strings. true ou false
 s.equalsIgnoreCase("boa tarde"); o equals só que não case sensitive
 
+Scanner
+ao ulitizar o Scanner, ao final é preciso fechá-lo. input.close();
+
+ele tem o mesmo problema do scanf, deixa o nul para tras
+então temos que consumir o \0 que fica perdido no buffer de entrada
+o nextInt e o nextDouble tem esse problema.
+System.out.println("Qual sua idade?")?
+int idade = teclado.nextInt();
+teclado.nextInt();
+System.out.println("Qual seu sobrenome?");
+String sobrenome = teclado.nextLine();
+teclado.nextLine();
+teclado.close();
+
+Objeto vs primitivo
+Tipos primitivos são apenas o valor, não tem comportamentos, métodos, que permitem manipulação como os objetos.
+Caso seja necessário ter métodos em tipos primitivos, usar Wrappers
+Wrappers, cada tipo primitivo tem um wrapper associado. Os wrappers são a versão objeto dos tipos primitivos.
+
+são oito tipos primitivos
+    byte
+    short
+    int
+    long  L
+    float F
+    double
+    char
+    boolean
 
 
+    
 
 
 
