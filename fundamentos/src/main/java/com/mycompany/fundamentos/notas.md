@@ -116,6 +116,8 @@ são oito tipos primitivos
 BigDecimal para trabalhos onde a precisão é necessária nas operações matemáticas
 
 ----
+ String salario2 = input.nextLine().replace(",", ".");
+Double.parseDouble(salario1) 
 
     
 
