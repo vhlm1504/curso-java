@@ -120,6 +120,46 @@ BigDecimal para trabalhos onde a precisão é necessária nas operações matem�
 Double.parseDouble(salario1) 
 
     
+--
+tabela verdade
+E &&
+V   V   V
+V   F   F
+F   V   F
+F   F   F
+
+OU || OR Ou inclusivo
+V   V   V
+V   F   V
+F   V   V
+F   F   F
+
+OU ^ XOR exclusivo
+V   V   F
+V   F   V 
+F   V   V
+F   F   F
+
+E &
+
+Igualdade entre Strings
+"string".equals("outra string".trim()); false
+
+input.next() já tira os espaços em branco
+input.nextLine() não tira
+
+--
+JRE vs JDK
+.java depois de compilado .class
+.class é um arquivo Byte Code que vai ser interpretado pela JVM.
+JRE ambiente de execução java Java Runtime enviroment
+no jre tem os javac, várias ferramentas e a JVM.
+JDK kit de desenvolvimento java
+
+A menos que se use applet não é preciso instalar o jre na máquina do cliente para aplicativos web.
+
+
+
 
 
 
