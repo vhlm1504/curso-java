@@ -96,6 +96,7 @@ teclado.nextLine();
 teclado.close();
 
 Objeto vs primitivo
+Wrappers
 Tipos primitivos são apenas o valor, não tem comportamentos, métodos, que permitem manipulação como os objetos.
 Caso seja necessário ter métodos em tipos primitivos, usar Wrappers
 Wrappers, cada tipo primitivo tem um wrapper associado. Os wrappers são a versão objeto dos tipos primitivos.
@@ -110,6 +111,11 @@ são oito tipos primitivos
     char
     boolean
 
+---
+
+BigDecimal para trabalhos onde a precisão é necessária nas operações matemáticas
+
+----
 
     
 
