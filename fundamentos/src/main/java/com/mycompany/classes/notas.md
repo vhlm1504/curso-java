@@ -26,6 +26,9 @@ This is a **generic Markdown template** showcasing essential formatting features
 Produto p1 = new Produto();
 var p2 = new Produto();//instanciando por inferência
 
+construtores não são herdados. Mas construtores da superclasse está disponível para ser chamado pelas subclasses.
+De fato, Java exige que a primeira tarefa em qualquer construtor numa subclasse é chamar o construtor da superclasse diretamente 
+ou indiretamente(o default).
 
 
 
