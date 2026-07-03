@@ -11,8 +11,7 @@ package com.mycompany.classes;
 public class ProdutoTest {
     public static void main(String[] args) {
         
-        int a = 3;
-        
+              
         Produto p1 = new Produto();
         p1.nome = "Lapttop";
         p1.preco = 4356.34;
@@ -26,8 +25,9 @@ public class ProdutoTest {
         System.out.println(p1.nome);
         System.out.println(p2.nome);
         
-        double precoFinal1 = p1.preco * (1 - p1.desconto);
-        double precoFinal2 = p2.preco * (1 - p2.desconto);
+        double precoFinal1 = p1.precoComDesconto();
+        double precoFinal2 = p2.precoComDesconto(.25);
+        System.out.printf("%s: %.2f%n%s: %.2f%n", "Preço final 1", precoFinal1, "Preço final 2", precoFinal2);
         System.out.println(precoFinal1 + precoFinal2);
     }
     

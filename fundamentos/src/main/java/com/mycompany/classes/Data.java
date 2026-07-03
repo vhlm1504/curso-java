@@ -72,4 +72,9 @@ public class Data {
                 "Data", dia, mes, ano, ano, "e ano Bissexto?", anoBissexto() ? "sim" : "nao");
     }
     
+    String obterDataFormatada()
+    {
+        return String.format("%02d/%02d/%02d%n", dia, mes, ano);
+    }
+    
 }
