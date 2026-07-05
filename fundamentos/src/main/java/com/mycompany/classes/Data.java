@@ -33,6 +33,11 @@ public class Data {
         this.ano = 1970;
     }
     
+    public Data(int p)
+    {
+        this.dia = p;
+    }
+      
     public void setDia(int dia)
     {
         if(dia < 1 || dia > 31)
