@@ -26,6 +26,13 @@ public class Data {
          this.ano = ano;        
     }
     
+    public Data()
+    {
+        this.dia = 01;
+        this.mes = 01;
+        this.ano = 1970;
+    }
+    
     public void setDia(int dia)
     {
         if(dia < 1 || dia > 31)
@@ -69,7 +76,7 @@ public class Data {
     public String toString()
     {
         return String.format("%s: %02d/%02d/%d%n%s %s %s", 
-                "Data", dia, mes, ano, ano, "e ano Bissexto?", anoBissexto() ? "sim" : "nao");
+                "Data", dia, mes, ano, ano, "e ano Bissexto?", getAno() == 0 ? "NULL" : (anoBissexto() ? "sim" : "nao") );
     }
     
     String obterDataFormatada()
