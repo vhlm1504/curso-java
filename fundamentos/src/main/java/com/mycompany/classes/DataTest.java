@@ -19,6 +19,7 @@ public class DataTest {
         System.out.println();
         var novaData = new Data(16, 11, 2000);
         System.out.printf("%s.%n", novaData.toString());
+        
        
     }
    
