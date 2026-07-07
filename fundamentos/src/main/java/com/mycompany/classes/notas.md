@@ -66,6 +66,7 @@ Data(int dia, int mes, int ano)
     this.ano = ano;
 }
 
+Data d1 = Math.random() > 0.5 ? new Data() : NULL; só um exemplo de como uma variável de referência pode ser inicializada 
 
 
 
