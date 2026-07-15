@@ -16,9 +16,14 @@ public class ComidaTest {
         //Comida prato = new Comida("Padrao", 17.0, 600, validade);
         //ou
         Comida prato = new Comida("Padrao", 17.0, 600, LocalDate.of(2026, 6, 30)); //porque não são muitas chamadas
+        Comida prato2 = new Comida("Padrao", 17.0, 600, LocalDate.of(2026, 6, 30)); //porque não são muitas chamadas
         
         System.out.printf("%s%n", prato.toString());
         System.out.printf("%s%n", Comida.estaVencida(prato) ? "Boa para consumir" : "Vencida");
+        System.out.println(prato.getNomePrato().equals("Padrao"));
+        System.out.println(prato.equals(prato2));
+        System.out.println(prato.getNomePrato().equals(prato2.getNomePrato()));
+        System.out.println(prato.getNomePrato() == prato2.getNomePrato()); 
     }
     
 }
