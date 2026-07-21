@@ -32,5 +32,10 @@ public class Usuario {
             return false;
         }
     }
+
+    public int hashCode() {
+        return this.nome.length();//11 no caso do nome Pedro Silva atribuido no main. então a pesquisa já cai só nos nomes com tamanho 11
+    }
+   
     
 }
