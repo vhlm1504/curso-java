@@ -46,6 +46,4 @@ public class Usuario {
         return Objects.equals(this.nome, other.nome);
     }
     
-    
-    
 }

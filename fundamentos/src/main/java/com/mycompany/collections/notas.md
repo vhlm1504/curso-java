@@ -35,14 +35,21 @@ List
     pode ser heterogêneo também não é recomendado aqui
     pode ser homogêneo
     aceita objetos duplicados
-    é ordenada naturalmente
+    é ordenada naturalmente, pela ordem de inclusão
     é indexado
 
 
 
+FILA, Queue
+    Queue<String> fila = new LinkedList<>();
+
+pilha, stack
+    Deque<String> livros = new ArrayDeque<String>();
 
 
+    
 
+Map<Integer, String> usuarios = new HashMap<>();
 
 
 

@@ -35,6 +35,7 @@ public class Lista {
         //no caso de passar por objeto, é possível porque o equals e o hashCode estão implementados corretamente.
         
         System.out.printf("%b%n", lista.contains(new Usuario("Lia")));
+        
         for(Usuario u : lista)
             System.out.println(u.toString());
         
